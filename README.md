@@ -4,14 +4,9 @@ NS Tools bundles the following optional packages for use in your project.
 
 # Installing
 
-## Method 1 - With Framework
-From within the framework directory, run the command `npm run thirdparty:setup`.
-To update the optional dependencies run the command `npm run thirdparty:update`.
+If you're using Framework, the optional libraries are already available to you. Just import components from `Framework/thirdparty/optional`.
 
-## Method 2 - Direct Use
-
-Copy JavaScript files from the repository into your project directly.
-
+If you wish to use one of the libraries outside of a Framework project. Just copy the .js/.d.ts files directly into your project.
 
 # Building
 
