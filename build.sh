@@ -22,3 +22,7 @@ cp -R node_modules/@types/lodash .
 # moment
 cp node_modules/moment/moment.js .
 cp node_modules/moment/ts3.1-typings/moment.d.ts .
+
+# papaparse
+cp node_modules/papaparse/papaparse.js .
+cp node_modules/@types/papaparse/index.d.ts ./papaparse.d.ts
