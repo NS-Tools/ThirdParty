@@ -26,3 +26,7 @@ cp node_modules/moment/ts3.1-typings/moment.d.ts .
 # papaparse
 cp node_modules/papaparse/papaparse.js .
 cp node_modules/@types/papaparse/index.d.ts ./papaparse.d.ts
+
+# Ramda
+cp node_modules/ramda/dist/ramda.js .
+cp node_modules/@types/ramda/dist/ramda.d.ts ./ramda.d.ts
