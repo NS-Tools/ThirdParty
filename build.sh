@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Install dependencies
 npm upgrade 
 
@@ -28,8 +30,8 @@ cp node_modules/papaparse/papaparse.js .
 cp node_modules/@types/papaparse/index.d.ts ./papaparse.d.ts
 
 # Ramda
-cp node_modules/ramda/dist/ramda.js .
-cp -R node_modules/types-ramda/es ./ramda
+#cp node_modules/ramda/dist/ramda.js .
+#cp -R node_modules/types-ramda/es ./ramda
 
 # DayJS
 cp node_modules/dayjs/dayjs.min.js ./dayjs.js
