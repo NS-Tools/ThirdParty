@@ -1,4 +1,4 @@
-/// <reference path="./dayjs-locale.d.ts" />
+/// <reference path="./locale/index.d.ts" />
 
 export = dayjs;
 

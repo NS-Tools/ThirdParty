@@ -35,10 +35,5 @@ cp node_modules/@types/papaparse/index.d.ts ./papaparse.d.ts
 
 # DayJS
 cp node_modules/dayjs/dayjs.min.js ./dayjs.js
+cp -R node_modules/dayjs/locale ./
 cp node_modules/dayjs/index.d.ts ./dayjs.d.ts
-cp node_modules/dayjs/locale/index.d.ts ./dayjs-locale.d.ts
-cp node_modules/dayjs/locale/types.d.ts ./dayjs-locale-types.d.ts
-# @TODO: Rename the locale directory to dayjs-locale if there's a collision
-cp -R node_modules/dayjs/locale .
-sed -i -e 's/\.\/locale\/index\.d\.ts/\.\/dayjs-locale\.d\.ts/g' ./dayjs.d.ts
-sed -i -e 's/\.\/types\.\d\.ts/\.\/dayjs-locale-types\.d\.ts/g' ./dayjs-locale.d.ts
